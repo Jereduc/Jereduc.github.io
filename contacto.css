@@ -1,0 +1,51 @@
+/* Estilos del contenido principal */
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* Estilos de la sección de contacto */
+section.contacto {
+    flex: 0 0 65%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+}
+
+section.contacto h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+section.contacto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos del lateral */
+aside.informacion-lateral {
+    flex: 0 0 30%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+aside.informacion-lateral h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+aside.informacion-lateral p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+aside.informacion-lateral strong {
+    font-weight: bold;
+}

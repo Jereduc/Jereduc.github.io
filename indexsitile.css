@@ -1,0 +1,132 @@
+/* Estilos Generales */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #2c3e50;
+    background: linear-gradient(-45deg, #34495e, #2c3e50, #1abc9c, #16a085);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    margin: 0;
+    padding: 0;
+    line-height: 1.9;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+/* Barra de Navegación */
+nav {
+    background: rgba(34, 34, 34, 0.9);
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+/* Sección de Entradas */
+.entradas {
+    max-width: 900px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.entrada {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.entrada h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.entrada a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.entrada a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: rgba(34, 34, 34, 0.9);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
